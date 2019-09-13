@@ -1,0 +1,49 @@
+body
+{
+    font-family: 'segoe ui light';
+    background-image: url(../images/light-gray-background-300x243.png);
+    background-size: cover;
+}
+.item
+{
+    position: relative;
+    cursor: pointer;
+}
+.item-caption
+{
+    position: absolute;
+    color: white;
+    width: 80%;
+    left: 10%;
+    bottom: 20px;
+    background-color: rgba(1,1,1,0.3);
+    padding: 5px;
+}
+
+.lightbox-container
+{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top:0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    display: none;
+}
+.lightbox-item
+{
+    width: 60%;
+    height: 500px;
+    background-size: 100% 100%;
+}
+.show
+{
+    display: flex;
+}
+#wClose
+{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
